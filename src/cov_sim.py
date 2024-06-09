@@ -11,7 +11,6 @@ import matplotlib.pyplot as plt
 from pathlib import Path
 from typing import Optional, Tuple, List
 from dateutil.relativedelta import relativedelta
-from abc import ABC
 
 
 class CovMatSim:

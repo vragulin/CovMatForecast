@@ -23,7 +23,7 @@ EQ_RISK_PREM = 0.03
 
 # Cov matrix methodology
 ANN_FACTOR = 252
-COV_METHOD = 'garch'  # ['robust', 'hist', 'garch']
+COV_METHOD = 'hist'  # ['robust', 'hist', 'garch']
 COV_WINDOW = ANN_FACTOR * 2
 VOL_TGT = 0.10
 
